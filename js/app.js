@@ -1,2 +1,2 @@
-import {name} from './cliente.js'
-document.getElementById('app').innerHTML=`The customer ${name}`
+import {name,credit,showInfo} from './cliente.js'
+document.getElementById('app').innerHTML=showInfo()
